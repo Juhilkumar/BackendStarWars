@@ -10,7 +10,6 @@ app.listen(port, () => {
     console.log('Server started on port', port)
 })
 
-app.use(bodyParser.json({ limit: "1000mb" }));
 
 function setUpRoutes() {
     const routes = require("./routes");
